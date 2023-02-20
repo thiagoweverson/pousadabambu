@@ -361,10 +361,7 @@ h3{
   height: 83px;
 }
 
-h1{
-  text-align: center;
-  opacity : 0.5;
-}
+
 	
 .class_bloco{
   background: #fff;
@@ -474,7 +471,7 @@ h1{
     -webkit-print-color-adjust: exact;
 }
 
-h1{
+h3{
   text-align: center;
   opacity : 0.5;
 }
