@@ -348,6 +348,8 @@ h3{
   height: 623px;
   margin-top: -50px;
   margin-left: -16px;
+	
+  opacity : 0.5;
   }
 
 
@@ -359,7 +361,11 @@ h3{
   height: 83px;
 }
 
+h1{
 
+  opacity : 0.5;
+}
+	
 .class_bloco{
   background: #fff;
   border: 1px solid black;
