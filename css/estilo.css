@@ -1,0 +1,25 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+	width: 100vw;
+	height: 100vh;
+	background-image: url("../img/background_body.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+
+.div_corpo{
+  margin-top: 5px;
+  text-align: center;
+}
+
+.pag{
+  width: 270px;
+  height: 485px;
+}
