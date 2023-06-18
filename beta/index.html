@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>🌴🌴🌴POUSADA🌴BAMBU🌴🌴🌴</title>
+  <link rel = "shortcut icon" type = "imagem/x-icon" href = "img/icon.png"/>
+	
+	<meta charset="utf-8"/>
+	
+    	<link href="css/estilo.css" rel="stylesheet">
+	
+	<script src="index.js"></script>
+
+        <style type="text/css">
+          .pag{
+            width: 144;
+            height: 500;
+          }
+        </style>
+	
+</head>
+
+<body>
+  <div class="menu">
+    <button onclick="inicio('quarto_01')">INICIO</button>
+
+    <button onclick="q_01('quarto_01')">01</button>
+     
+    <button onclick="q_02('quarto_02')">02</button>
+      
+    <button onclick="q_03('quarto_03')">03</button>
+      
+    <button onclick="q_04('quarto_04')">04</button>
+      
+    <button onclick="q_05('quarto_05')">05</button>
+      
+    <button onclick="q_06('quarto_06')">06</button>
+    <br>
+      
+    <button onclick="q_07('quarto_07')">07</button>
+      
+    <button onclick="q_08('quarto_08')">08</button>
+      
+    <button onclick="q_09('quarto_09')">09</button>
+      
+    <button onclick="q_10('quarto_10')">10</button>
+      
+    <button onclick="q_11('quarto_11')">11</button>
+      
+    <button onclick="q_12('quarto_12')">12</button>
+
+    <p style="color: #555; margin-left: 70%; margin-top: -55px;"><span id="current_date"></span>©THIAGO WEVERSON</p>
+      <script>
+        date = new Date();
+        year = date.getFullYear();
+        month = date.getMonth() + 1;
+        day = date.getDate();
+        document.getElementById("current_date").innerHTML = year;
+      </script>
+  </div>
+  <br>
+
+  <div class="div_corpo">
+      
+      <button id="botao" style="position: absolute; background: #f00; z-index: 1; color: #fff; display: none; cursor: pointer; font-size: 14pt; border: solid 1px black; margin-left: 96px; margin-top: -206px;" onclick="fechar('quarto_01')">X</button>
+
+      <iframe id="quarto_01" class="pag" src=" quartos/quarto_01.html" allowfullscreen></iframe>
+      
+      <iframe id="quarto_02" class="pag" src="quartos/quarto_02.html" frameborder="2" allowfullscreen>oi</iframe>
+      
+      <iframe id="quarto_03" class="pag" src="quartos/quarto_03.html" frameborder="2" allowfullscreen></iframe>
+      
+      <iframe id="quarto_04" class="pag" src="quartos/quarto_04.html" frameborder="2" allowfullscreen></iframe>
+      
+      <iframe id="quarto_05" class="pag" src="quartos/quarto_05.html" frameborder="2" allowfullscreen></iframe>
+      
+      <iframe id="quarto_06" class="pag" src="quartos/quarto_06.html" frameborder="2" allowfullscreen></iframe>
+     
+      <iframe id="quarto_07" class="pag" src="quartos/quarto_07.html" frameborder="2" allowfullscreen></iframe>
+     
+      <iframe id="quarto_08" class="pag" src="quartos/quarto_08.html" frameborder="2" allowfullscreen></iframe>
+     
+      <iframe id="quarto_09" class="pag" src="quartos/quarto_09.html" frameborder="2" allowfullscreen></iframe>
+     
+      <iframe id="quarto_10" class="pag" src="quartos/quarto_10.html" frameborder="2" allowfullscreen></iframe>
+      
+      <iframe id="quarto_11" class="pag" src="quartos/quarto_11.html" frameborder="2" allowfullscreen></iframe>
+      
+      <iframe id="quarto_12" class="pag" src="quartos/quarto_12.html" frameborder="2" allowfullscreen></iframe>
+  </div>
+</body>
+</html>
+
+
+
+
+
